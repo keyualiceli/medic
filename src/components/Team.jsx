@@ -22,9 +22,9 @@ export default ({ teamMembers}) => {
                     )}
                 </div>
                 <div className="row">
-                    <div className="col-lg-12 mx-auto text-center"><p className="large text-muted">Interested in becoming part of the team? Applications are open!</p></div>
+                    <div className="col-lg-12 mx-auto text-center"><h4 className="large">Interested in becoming part of the team? Applications are open!</h4></div>
                     <div className="col-lg-12 mx-auto text-center">
-                        <a target='_blank' className="text-center btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_4JgtWo0ZlLQwI0B">Join Out Team</a>
+                        <a target='_blank' className="text-center btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_4JgtWo0ZlLQwI0B">Join Our Team</a>
                     </div>
                 </div>
             </div>
