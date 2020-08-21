@@ -4,8 +4,8 @@ export default ({ teamMembers}) => {
         <section className="page-section" id="team">
             <div className="container">
                 <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 className="section-heading text-uppercase">Meet Our Team</h2>
+                    <h3 className="section-subheading text-muted"></h3>
                 </div>
                 <div className="row">
                     {teamMembers && teamMembers.map(({ name, role, photo, email, facebook, linkedin }, index) =>
@@ -22,7 +22,10 @@ export default ({ teamMembers}) => {
                     )}
                 </div>
                 <div className="row">
-                    <div className="col-lg-8 mx-auto text-center"><p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div className="col-lg-12 mx-auto text-center"><p className="large text-muted">Interested in becoming part of the team? Applications are open!</p></div>
+                    <div className="col-lg-12 mx-auto text-center">
+                        <a target='_blank' className="text-center btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_4JgtWo0ZlLQwI0B">Join Out Team</a>
+                    </div>
                 </div>
             </div>
         </section>
