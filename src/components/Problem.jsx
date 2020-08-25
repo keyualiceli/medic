@@ -16,7 +16,7 @@ export default () => {
                         </p>
                     </div>
                     <div className="text-center col-4 mb-4">
-                        <img className="img-fluid" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1496821.jpg" alt="" />
+                        <img className="img-fluid" src={require('../assets/img/girl.jpg')} alt="" />
                     </div>
                 </div>
             </div>

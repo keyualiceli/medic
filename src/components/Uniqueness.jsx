@@ -10,7 +10,7 @@ export default () => {
                         <h2 className="section-heading text-uppercase">What makes us unique</h2>
                     </div>
                     <div className="text-center col-4 mb-4">
-                        <img className="img-fluid" src="https://lh3.googleusercontent.com/proxy/MvpCMrt9r9kziAzhN-tBpX4Hmevlf0543pxsOpdDUiR21m0600okFxsa4c_DofjO2uf8pDGuTFWxleuuCiHwpRtT8zam8pHCoQB6XTqV_Mg1b5Yalw" alt="" />
+                        <img className="img-fluid" src={require('../assets/img/syringe.jpg')} alt="" />
                     </div>
                     <div className="text-center col-8 mb-4">
                         <p style={{margin:"7%",}}>The UN environment.org states that nearly 0.5kg per bed per day of waste is produced on average by hospitals. Improper treatment of this waste can lead to serious disease transmission and burning this waste causes toxic emissions and air pollution. 

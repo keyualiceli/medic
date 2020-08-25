@@ -9,6 +9,7 @@ import Team from './components/Team';
 import Problem from './components/Problem';
 import Uniqueness from './components/Uniqueness';
 import Contact from './components/Contact';
+//`https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
 
 function App() {
 
@@ -16,32 +17,12 @@ function App() {
         {
             title: 'First Project',
             caption: 'something to say about this project',
-            photo: `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
+            photo: 'https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1496821.jpg'
         },
         {
             title: 'Second Project',
             caption: 'something to say about this project',
-            photo: `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
-        },
-        {
-            title: 'Third Project',
-            caption: 'something to say about this project',
-            photo: `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
-        },
-        {
-            title: 'Fourth Project',
-            caption: 'something to say about this project',
-            photo: `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
-        },
-        {
-            title: 'Fifth Project',
-            caption: 'something to say about this project',
-            photo: `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
-        },
-        {
-            title: 'Sixth Project',
-            caption: 'something to say about this project',
-            photo: `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}`
+            photo: `https://4.imimg.com/data4/NJ/KR/MY-2452310/lockout-safety-valve-and-electrical-lockout-kit-large-500x500.png`
         },
     ]
 
@@ -50,9 +31,9 @@ function App() {
             name: 'Anjali Menon',
             role: 'Anjali\'s role',
             photo: 'https://media-exp1.licdn.com/dms/image/C4D03AQE6DIT7I3YhJA/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=44NMDReOXSygqMXujlHnsmgxMoAz2NfUa-PYrRCXkuM',
-            email: '',
+            email: 'mailto:anjalimenon@live.com',
             facebook: '',
-            linkedin: '',
+            linkedin: 'https://linkedin.com/in/anjali-menon-a34536123',
         },
         {
             name: 'Madhini Vigneswaran',
@@ -65,16 +46,16 @@ function App() {
             name: 'Hunter Lang',
             role: 'Hunter\'s role',
             photo: 'https://media-exp1.licdn.com/dms/image/C4D03AQGRLWZt5DDxuw/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=VpthRY1IFfXviqWvR5o0zKGwXVbBKuDpAgNMe44PE6o',
-            email: '',
+            email: 'mailto:hunter.lang42@gmail.com',
             facebook: '',
-            linkedin: '',
+            linkedin: 'https://linkedin.com/in/hunterjlang42',
         },{
             name: 'Alice Li',
             role: 'Developer',
             photo: 'https://media-exp1.licdn.com/dms/image/C5603AQGNPIH5hTMEIQ/profile-displayphoto-shrink_400_400/0?e=1603324800&v=beta&t=sFep8nBR2PnMvGVDCpW7LH1tTzOxmrmrpvNwwkHGdDM',
-            email: '',
+            email: 'mailto:ky24li@uwaterloo.ca',
             facebook: '',
-            linkedin: '',
+            linkedin: 'https://www.linkedin.com/in/alice-li-keyu/',
         }
     ]
 
