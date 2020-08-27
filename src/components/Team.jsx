@@ -14,9 +14,9 @@ export default ({ teamMembers}) => {
                             <img className="mx-auto rounded-circle" src={ photo } alt={name} />
                             <h4>{name}</h4>
                             <p className="text-muted">{role}</p>
-                            <a className="btn btn-dark btn-social mx-2" href={email}><i className="fa fa-envelope"></i></a>
-                            <a className="btn btn-dark btn-social mx-2" href={facebook}><i className="fa fa-facebook-f"></i></a>
-                            <a className="btn btn-dark btn-social mx-2" href={linkedin}><i className="fa fa-linkedin"></i></a>
+                            <a target="_blank" className="btn btn-dark btn-social mx-2" href={email}><i className="fa fa-envelope"></i></a>
+                            <a target="_blank" className="btn btn-dark btn-social mx-2" href={facebook}><i className="fa fa-facebook-f"></i></a>
+                            <a target="_blank" className="btn btn-dark btn-social mx-2" href={linkedin}><i className="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                     )}

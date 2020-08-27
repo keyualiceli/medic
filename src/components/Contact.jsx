@@ -21,7 +21,7 @@ export default () => {
                                 Message Us
                             </div>
                             <div className="col-1 ">
-                                <a target="_blank" className="btn btn-danger btn-social mx-2" style={{margin:"10%",}} href="#!">
+                                <a target="_blank" className="btn btn-danger btn-social mx-2" style={{margin:"10%",}} href="mailto:teammedicubc@gmail.com">
                                     <i className="fa fa-linkedin"></i></a>
                                 Connect with Us
                             </div>
